@@ -1,0 +1,20 @@
+# Mac
+*.DS_Store
+*.log
+*.tsbuildinfo
+
+# npm & yarn
+.pnp.*
+.yarn/install-state.gz
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+**/packge-lock.json
+**/node_modules/
+
+# build
+**/dist/*
+dist
+*storybook.log
