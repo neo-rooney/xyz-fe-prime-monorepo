@@ -1,0 +1,14 @@
+.header {
+  padding: var(--spacing-3);
+  box-shadow: var(--shadows-dark-lg);
+  background: var(--red-50);
+}
+
+.main {
+  padding: var(--spacing-10);
+}
+
+.footer {
+  padding: var(--spacing-3);
+  background: var(--blue-50);
+}
