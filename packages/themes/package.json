@@ -1,4 +1,16 @@
 {
   "name": "@xyz/themes",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run build:js && npm run build:type",
+    "build:js": "node build.js",
+    "build:type": "tsc --emitDeclarationOnly",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.17",
+    "typescript": "^5.5.2"
+  }
 }
