@@ -1,69 +1,26 @@
 {
   "nodes": {
-    "test-app": {
-      "name": "test-app",
+    "@xyz/storybook": {
+      "name": "@xyz/storybook",
       "type": "app",
       "data": {
-        "root": "services/test-app",
-        "sourceRoot": "services/test-app",
-        "name": "test-app",
+        "root": "services/storybook",
+        "sourceRoot": "services/storybook",
+        "name": "@xyz/storybook",
         "projectType": "application",
         "tags": [
-          "npm:private"
+          "npm:public"
         ],
         "metadata": {
-          "targetGroups": {
-            "NPM Scripts": [
-              "start",
-              "build",
-              "test",
-              "eject"
-            ]
-          }
+          "targetGroups": {}
         },
         "targets": {
-          "start": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "start"
-            },
-            "metadata": {
-              "scriptContent": "react-scripts start",
-              "runCommand": "yarn start"
-            },
-            "configurations": {}
-          },
-          "build": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "build"
-            },
-            "metadata": {
-              "scriptContent": "react-scripts build",
-              "runCommand": "yarn build"
-            },
-            "configurations": {}
-          },
-          "test": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "test"
-            },
-            "metadata": {
-              "scriptContent": "react-scripts test",
-              "runCommand": "yarn test"
-            },
-            "configurations": {}
-          },
-          "eject": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "eject"
-            },
-            "metadata": {
-              "scriptContent": "react-scripts eject",
-              "runCommand": "yarn eject"
-            },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
             "configurations": {}
           }
         },
@@ -13376,83 +13333,7 @@
     }
   },
   "dependencies": {
-    "test-app": [
-      {
-        "source": "test-app",
-        "target": "npm:@emotion/react@11.11.4",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@emotion/styled@11.11.5",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@testing-library/jest-dom@5.17.0",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@testing-library/react@13.4.0",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@testing-library/user-event@13.5.0",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@types/jest@27.5.2",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@types/node@16.18.101",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@types/react@18.3.3",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:@types/react-dom@18.3.0",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "@xyz/themes",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:react@18.3.1",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:react-dom@18.3.1",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:react-scripts@5.0.1",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:typescript@4.9.5",
-        "type": "static"
-      },
-      {
-        "source": "test-app",
-        "target": "npm:web-vitals@2.1.4",
-        "type": "static"
-      }
-    ],
+    "@xyz/storybook": [],
     "@xyz/esbuild": [
       {
         "source": "@xyz/esbuild",
