@@ -1,5 +1,32 @@
 {
   "nodes": {
+    "@xyz/react-components-layout": {
+      "name": "@xyz/react-components-layout",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/layout",
+        "sourceRoot": "packages/react/components/layout",
+        "name": "@xyz/react-components-layout",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {}
+        },
+        "targets": {
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@xyz/storybook": {
       "name": "@xyz/storybook",
       "type": "app",
@@ -10366,6 +10393,7 @@
     }
   },
   "dependencies": {
+    "@xyz/react-components-layout": [],
     "@xyz/storybook": [
       {
         "source": "@xyz/storybook",
