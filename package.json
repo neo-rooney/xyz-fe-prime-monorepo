@@ -6,6 +6,9 @@
     "packages/**/*",
     "services/**/*"
   ],
+  "scripts": {
+    "build": "nx build"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
