@@ -7,7 +7,10 @@
     "services/**/*"
   ],
   "scripts": {
-    "build": "nx build"
+    "build": "nx build",
+    "dev:all": "yarn dev:storybook & yarn dev:packages",
+    "dev:storybook": "nx storybook @xyz/storybook",
+    "dev:packages": "nx run-many --target=dev --projects='@xyz/themes'"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.14.1",

@@ -12,6 +12,7 @@
     "./themes.css": "./dist/themes.css"
   },
   "scripts": {
+    "dev": "yarn build:js --watch && yarn build:type --watch",
     "build": "yarn clean && yarn build:js && yarn build:type && yarn build:css",
     "build:js": "node build.js",
     "build:type": "yarn tsc --emitDeclarationOnly",
