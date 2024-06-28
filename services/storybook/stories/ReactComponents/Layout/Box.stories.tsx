@@ -55,10 +55,10 @@ export const Default: Story = {
   args: {
     as: "div",
     bg: "red",
-    p: "10",
+    p: 10,
     borderRadius: "lg",
     boxShadow: "xl",
     color: "blue",
-    m: "0",
+    m: 0,
   },
 };
