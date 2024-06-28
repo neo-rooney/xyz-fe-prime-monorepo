@@ -9,3 +9,8 @@ export type TextProps = AsElementProps &
     decoration?: CSSProperties["textDecoration"];
     fontSize: keyof typeof classes.typography.text;
   };
+
+export type HeadingProps = StyleProps &
+  AsElementProps & {
+    fontSize: keyof typeof classes.typography.heading;
+  };

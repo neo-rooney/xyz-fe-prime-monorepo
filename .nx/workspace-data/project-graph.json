@@ -10791,7 +10791,17 @@
       },
       {
         "source": "@xyz/storybook",
+        "target": "npm:@types/react@18.3.3",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/storybook",
         "target": "@xyz/react-components-layout",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/storybook",
+        "target": "@xyz/themes",
         "type": "static"
       },
       {
