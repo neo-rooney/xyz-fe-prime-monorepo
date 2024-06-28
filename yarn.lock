@@ -4192,6 +4192,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vanilla-extract/recipes@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "@vanilla-extract/recipes@npm:0.5.3"
+  peerDependencies:
+    "@vanilla-extract/css": ^1.0.0
+  checksum: 10c0/1a8a155c53031efeafd67e0e429bb766049a61ca1dda8dfc6144f09882ccf7058557d6a89c2454cd2726452fedd5110a55a4d89a5f1e2846d815eca095494aea
+  languageName: node
+  linkType: hard
+
 "@vanilla-extract/sprinkles@npm:^1.6.2":
   version: 1.6.2
   resolution: "@vanilla-extract/sprinkles@npm:1.6.2"
@@ -4249,6 +4258,7 @@ __metadata:
     "@types/react-dom": "npm:^18.3.0"
     "@vanilla-extract/css": "npm:^1.15.3"
     "@vanilla-extract/esbuild-plugin": "npm:^2.3.8"
+    "@vanilla-extract/recipes": "npm:^0.5.3"
     "@vanilla-extract/sprinkles": "npm:^1.6.2"
     "@xyz/esbuild": "workspace:^"
     "@xyz/themes": "workspace:^"
@@ -4275,6 +4285,7 @@ __metadata:
     "@storybook/react": "npm:^8.1.11"
     "@storybook/react-vite": "npm:^8.1.11"
     "@storybook/test": "npm:^8.1.11"
+    "@types/react": "npm:^18.3.3"
     "@xyz/react-components-layout": "workspace:^"
     "@xyz/themes": "workspace:^"
     prop-types: "npm:^15.8.1"
