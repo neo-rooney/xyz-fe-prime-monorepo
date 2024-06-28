@@ -10,7 +10,8 @@
     "build": "nx build",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
     "dev:storybook": "nx storybook @xyz/storybook",
-    "dev:packages": "nx run-many --target=dev --projects='@xyz/themes'"
+    "dev:packages": "nx run-many --target=dev --projects='@xyz/themes,@xyz/react-components-*'",
+    "reset": "nx reset"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.14.1",
