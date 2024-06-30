@@ -6,6 +6,8 @@ import {
   buttonStyle,
   enableColorVariant,
   hoverColorVariant,
+  spanStyle,
+  spinnerStyle,
 } from "./style.css";
 import { vars } from "@xyz/themes";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
@@ -18,9 +20,12 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
     isDisabled,
     style,
     children,
+    leftIcon,
+    rightIcon,
+    isLoading,
   } = props;
 
-  const disabled = isDisabled;
+  const disabled = isDisabled || isLoading;
 
   const endableColor = vars.colors.$scale[color][500];
 
@@ -33,6 +38,15 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
     variant === "solid"
       ? vars.colors.$scale[color][700]
       : vars.colors.$scale[color][100];
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
+    props.onKeyDown?.(event);
+
+    if (event.key === "Enter" || event.key === "13") {
+      event.preventDefault();
+      event.currentTarget.click();
+    }
+  };
 
   return (
     <button
@@ -53,8 +67,15 @@ const Button = (props: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
         ...style,
       }}
       disabled={disabled}
+      data-loading={isLoading}
+      onKeyDown={handleKeyDown}
+      onClick={() => console.log("AAA")}
+      role="button"
     >
-      {children}
+      {isLoading && <div className={spinnerStyle({ size })} />}
+      {leftIcon && <span className={spanStyle({ size })}>{leftIcon}</span>}
+      <span>{children}</span>
+      {rightIcon && <span className={spanStyle({ size })}>{rightIcon}</span>}
     </button>
   );
 };

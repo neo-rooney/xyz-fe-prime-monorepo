@@ -76,7 +76,7 @@
         },
         {
           "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
-          "hash": "2578810050305964808"
+          "hash": "2352557199792055728"
         },
         {
           "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
@@ -137,7 +137,7 @@
         },
         {
           "file": "packages/react/components/button/src/Button.tsx",
-          "hash": "16911657126270677155"
+          "hash": "7094180825981855952"
         },
         {
           "file": "packages/react/components/button/src/index.ts",
@@ -145,15 +145,85 @@
         },
         {
           "file": "packages/react/components/button/src/style.css.ts",
-          "hash": "17752280952307977812"
+          "hash": "15060046004863304556"
         },
         {
           "file": "packages/react/components/button/src/types.ts",
-          "hash": "14789962779084944951"
+          "hash": "6747927959602565848"
         },
         {
           "file": "packages/react/components/button/tsconfig.json",
           "hash": "465124171649795951"
+        }
+      ],
+      "@xyz/themes": [
+        {
+          "file": "packages/themes/build.js",
+          "hash": "861602057292074426"
+        },
+        {
+          "file": "packages/themes/package-lock.json",
+          "hash": "9083377881366875813"
+        },
+        {
+          "file": "packages/themes/package.json",
+          "hash": "232095651688889924",
+          "deps": [
+            "@xyz/esbuild",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/themes/scripts/buildCss.js",
+          "hash": "2040916421180589171"
+        },
+        {
+          "file": "packages/themes/src/classes/index.ts",
+          "hash": "14874153686921477232"
+        },
+        {
+          "file": "packages/themes/src/classes/typography.ts",
+          "hash": "4613592670763236173"
+        },
+        {
+          "file": "packages/themes/src/index.ts",
+          "hash": "5051740342712927388"
+        },
+        {
+          "file": "packages/themes/src/variables/box.ts",
+          "hash": "17415301785716516678"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/index.ts",
+          "hash": "16067044052561609752"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/scale.ts",
+          "hash": "7227875050283308958"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/dark.ts",
+          "hash": "681337314988286385"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/index.ts",
+          "hash": "17639848047638776056"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/light.ts",
+          "hash": "5111065768491833496"
+        },
+        {
+          "file": "packages/themes/src/variables/index.ts",
+          "hash": "17288868138055620940"
+        },
+        {
+          "file": "packages/themes/src/variables/typography.ts",
+          "hash": "15749593622752628120"
+        },
+        {
+          "file": "packages/themes/tsconfig.json",
+          "hash": "2203870149161640560"
         }
       ],
       "@xyz/react-components-layout": [
@@ -266,76 +336,6 @@
         {
           "file": "packages/react/components/layout/tsconfig.json",
           "hash": "465124171649795951"
-        }
-      ],
-      "@xyz/themes": [
-        {
-          "file": "packages/themes/build.js",
-          "hash": "861602057292074426"
-        },
-        {
-          "file": "packages/themes/package-lock.json",
-          "hash": "9083377881366875813"
-        },
-        {
-          "file": "packages/themes/package.json",
-          "hash": "232095651688889924",
-          "deps": [
-            "@xyz/esbuild",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/themes/scripts/buildCss.js",
-          "hash": "2040916421180589171"
-        },
-        {
-          "file": "packages/themes/src/classes/index.ts",
-          "hash": "14874153686921477232"
-        },
-        {
-          "file": "packages/themes/src/classes/typography.ts",
-          "hash": "4613592670763236173"
-        },
-        {
-          "file": "packages/themes/src/index.ts",
-          "hash": "5051740342712927388"
-        },
-        {
-          "file": "packages/themes/src/variables/box.ts",
-          "hash": "17415301785716516678"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/index.ts",
-          "hash": "16067044052561609752"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/scale.ts",
-          "hash": "7227875050283308958"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/static/dark.ts",
-          "hash": "681337314988286385"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/static/index.ts",
-          "hash": "17639848047638776056"
-        },
-        {
-          "file": "packages/themes/src/variables/colors/static/light.ts",
-          "hash": "5111065768491833496"
-        },
-        {
-          "file": "packages/themes/src/variables/index.ts",
-          "hash": "17288868138055620940"
-        },
-        {
-          "file": "packages/themes/src/variables/typography.ts",
-          "hash": "15749593622752628120"
-        },
-        {
-          "file": "packages/themes/tsconfig.json",
-          "hash": "2203870149161640560"
         }
       ]
     },

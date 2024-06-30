@@ -3,6 +3,7 @@ import "@xyz/react-components-button/style.css";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "@xyz/react-components-button";
 import { vars } from "@xyz/themes";
+import React from "react";
 
 const meta: Meta<typeof Button> = {
   title: "React Components/Button",
@@ -34,5 +35,7 @@ export const Default: Story = {
   args: {
     children: "button",
     variant: "outline",
+    leftIcon: "😀",
+    isLoading: false,
   },
 };
