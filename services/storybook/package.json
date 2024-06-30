@@ -14,6 +14,7 @@
     "@types/react": "^18.3.3",
     "@xyz/react-components-button": "workspace:^",
     "@xyz/react-components-layout": "workspace:^",
+    "@xyz/react-hooks-button": "workspace:^",
     "@xyz/themes": "workspace:^",
     "prop-types": "^15.8.1",
     "storybook": "^8.1.11",

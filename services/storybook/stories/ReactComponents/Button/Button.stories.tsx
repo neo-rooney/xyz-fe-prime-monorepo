@@ -2,8 +2,10 @@ import "@xyz/react-components-button/style.css";
 
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "@xyz/react-components-button";
+import { Text } from "@xyz/react-components-layout";
 import { vars } from "@xyz/themes";
 import React from "react";
+import { useButton } from "@xyz/react-hooks-button";
 
 const meta: Meta<typeof Button> = {
   title: "React Components/Button",
@@ -37,5 +39,31 @@ export const Default: Story = {
     variant: "outline",
     leftIcon: "😀",
     isLoading: false,
+  },
+};
+
+export const TextButton = {
+  render: () => {
+    const { buttonProps } = useButton({
+      elementType: "div",
+      onClick: () => {
+        console.log("ttt");
+      },
+    });
+
+    return (
+      <Text
+        {...buttonProps}
+        as="div"
+        fontSize="md"
+        color="green"
+        style={{
+          userSelect: "none",
+          cursor: "pointer",
+        }}
+      >
+        텍스트 버튼입니다.
+      </Text>
+    );
   },
 };

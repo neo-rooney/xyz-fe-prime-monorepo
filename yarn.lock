@@ -4271,6 +4271,7 @@ __metadata:
     "@vanilla-extract/recipes": "npm:^0.5.3"
     "@vanilla-extract/sprinkles": "npm:^1.6.2"
     "@xyz/esbuild": "workspace:^"
+    "@xyz/react-hooks-button": "workspace:^"
     "@xyz/themes": "workspace:^"
     clsx: "npm:^2.1.1"
     react: "npm:^18.3.1"
@@ -4304,6 +4305,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@xyz/react-hooks-button@workspace:^, @xyz/react-hooks-button@workspace:packages/react/hooks/button":
+  version: 0.0.0-use.local
+  resolution: "@xyz/react-hooks-button@workspace:packages/react/hooks/button"
+  dependencies:
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@xyz/esbuild": "workspace:^"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.5.2"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@xyz/storybook@workspace:services/storybook":
   version: 0.0.0-use.local
   resolution: "@xyz/storybook@workspace:services/storybook"
@@ -4320,6 +4337,7 @@ __metadata:
     "@types/react": "npm:^18.3.3"
     "@xyz/react-components-button": "workspace:^"
     "@xyz/react-components-layout": "workspace:^"
+    "@xyz/react-hooks-button": "workspace:^"
     "@xyz/themes": "workspace:^"
     prop-types: "npm:^15.8.1"
     storybook: "npm:^8.1.11"

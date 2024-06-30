@@ -1,5 +1,5 @@
 {
-  "name": "@xyz/react-components-button",
+  "name": "@xyz/react-hooks-button",
   "packageManager": "yarn@4.3.1",
   "version": "0.0.1",
   "type": "module",
@@ -9,8 +9,7 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./style.css": "./dist/index.css"
+    }
   },
   "scripts": {
     "dev": "yarn build:js --watch && yarn build:type --watch",
@@ -22,20 +21,12 @@
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vanilla-extract/css": "^1.15.3",
-    "@vanilla-extract/dynamic": "^2.1.1",
-    "@vanilla-extract/esbuild-plugin": "^2.3.8",
-    "@vanilla-extract/recipes": "^0.5.3",
-    "@vanilla-extract/sprinkles": "^1.6.2",
     "@xyz/esbuild": "workspace:^",
-    "@xyz/react-hooks-button": "workspace:^",
-    "@xyz/themes": "workspace:^",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.5.2"
   },
   "peerDependencies": {
-    "@xyz/themes": "workspace:^",
     "react": "*"
   },
   "dependencies": {
