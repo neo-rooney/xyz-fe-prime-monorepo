@@ -26,6 +26,248 @@
   },
   "fileMap": {
     "projectFileMap": {
+      "@xyz/esbuild": [
+        {
+          "file": "packages/esbuild/index.js",
+          "hash": "11182918977837979281"
+        },
+        {
+          "file": "packages/esbuild/package.json",
+          "hash": "8825915797129003614",
+          "deps": [
+            "npm:esbuild@0.16.17"
+          ]
+        }
+      ],
+      "@xyz/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "11078301725031675987"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "12839613843311711699"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "4075513175848418798",
+          "deps": [
+            "npm:@chromatic-com/storybook@1.5.0",
+            "npm:@storybook/addon-essentials@8.1.11",
+            "npm:@storybook/addon-interactions@8.1.11",
+            "npm:@storybook/addon-links@8.1.11",
+            "npm:@storybook/addon-onboarding@8.1.11",
+            "npm:@storybook/blocks@8.1.11",
+            "npm:@storybook/react@8.1.11",
+            "npm:@storybook/react-vite@8.1.11",
+            "npm:@storybook/test@8.1.11",
+            "npm:@types/react@18.3.3",
+            "@xyz/react-components-button",
+            "@xyz/react-components-layout",
+            "@xyz/themes",
+            "npm:prop-types@15.8.1",
+            "npm:storybook@8.1.11",
+            "npm:vite@5.3.1"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
+          "hash": "2578810050305964808"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
+          "hash": "9335182216741094594"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
+          "hash": "6757761100968596537"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
+          "hash": "7192617151500981401"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Typography/Heading.stories.tsx",
+          "hash": "512143240711419007"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Typography/Text.stories.tsx",
+          "hash": "1654438266420389349"
+        },
+        {
+          "file": "services/storybook/stories/themes/colors/Dark.mdx",
+          "hash": "2921655649358025552"
+        },
+        {
+          "file": "services/storybook/stories/themes/colors/Light.mdx",
+          "hash": "11885914450841216044"
+        }
+      ],
+      "@xyz/react-components-button": [
+        {
+          "file": "packages/react/components/button/README.md",
+          "hash": "8308939158323428482"
+        },
+        {
+          "file": "packages/react/components/button/build.js",
+          "hash": "9791472403968299618"
+        },
+        {
+          "file": "packages/react/components/button/package.json",
+          "hash": "16028312314882271802",
+          "deps": [
+            "@xyz/themes",
+            "npm:react@18.3.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@vanilla-extract/css@1.15.3",
+            "npm:@vanilla-extract/dynamic@2.1.1",
+            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
+            "npm:@vanilla-extract/recipes@0.5.3",
+            "npm:@vanilla-extract/sprinkles@1.6.2",
+            "@xyz/esbuild",
+            "npm:react-dom@18.3.1",
+            "npm:typescript",
+            "npm:clsx@2.1.1"
+          ]
+        },
+        {
+          "file": "packages/react/components/button/src/Button.tsx",
+          "hash": "16911657126270677155"
+        },
+        {
+          "file": "packages/react/components/button/src/index.ts",
+          "hash": "8409040364927157818"
+        },
+        {
+          "file": "packages/react/components/button/src/style.css.ts",
+          "hash": "17752280952307977812"
+        },
+        {
+          "file": "packages/react/components/button/src/types.ts",
+          "hash": "14789962779084944951"
+        },
+        {
+          "file": "packages/react/components/button/tsconfig.json",
+          "hash": "465124171649795951"
+        }
+      ],
+      "@xyz/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/README.md",
+          "hash": "3873811360529210895"
+        },
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "9791472403968299618"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "8142851987320828347",
+          "deps": [
+            "@xyz/themes",
+            "npm:react@18.3.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@vanilla-extract/css@1.15.3",
+            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
+            "npm:@vanilla-extract/recipes@0.5.3",
+            "npm:@vanilla-extract/sprinkles@1.6.2",
+            "@xyz/esbuild",
+            "npm:react-dom@18.3.1",
+            "npm:typescript",
+            "npm:clsx@2.1.1"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/core/style.css.ts",
+          "hash": "11025558606281945054"
+        },
+        {
+          "file": "packages/react/components/layout/src/core/types.ts",
+          "hash": "10244582457833403144"
+        },
+        {
+          "file": "packages/react/components/layout/src/dataDisplay/Divider/Divider.tsx",
+          "hash": "4413103074714128159"
+        },
+        {
+          "file": "packages/react/components/layout/src/dataDisplay/Divider/Divider.types.tsx",
+          "hash": "11747012491895481710"
+        },
+        {
+          "file": "packages/react/components/layout/src/dataDisplay/Divider/index.ts",
+          "hash": "12731453462558673681"
+        },
+        {
+          "file": "packages/react/components/layout/src/dataDisplay/index.ts",
+          "hash": "11698232762792694145"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "991160108264580409"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Box/Box.tsx",
+          "hash": "10184493955179217095"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Box/Box.types.ts",
+          "hash": "3629337861103986366"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Box/index.ts",
+          "hash": "12912581428594905567"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Flex/Flex.tsx",
+          "hash": "203032495605363230"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Flex/Flex.types.tsx",
+          "hash": "10310640293990415806"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Flex/index.ts",
+          "hash": "16793899875872547799"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/index.ts",
+          "hash": "11394771962827960652"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Heading.tsx",
+          "hash": "11651806640471263370"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Text.tsx",
+          "hash": "7117371524380129757"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Typography.css.ts",
+          "hash": "3116324455212749619"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Typography.types.ts",
+          "hash": "3689629646859641415"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/index.ts",
+          "hash": "1617324979242977684"
+        },
+        {
+          "file": "packages/react/components/layout/src/utils/properties.ts",
+          "hash": "5698855879563130366"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "465124171649795951"
+        }
+      ],
       "@xyz/themes": [
         {
           "file": "packages/themes/build.js",
@@ -94,178 +336,6 @@
         {
           "file": "packages/themes/tsconfig.json",
           "hash": "2203870149161640560"
-        }
-      ],
-      "@xyz/storybook": [
-        {
-          "file": "services/storybook/.storybook/main.js",
-          "hash": "11078301725031675987"
-        },
-        {
-          "file": "services/storybook/.storybook/preview.js",
-          "hash": "12839613843311711699"
-        },
-        {
-          "file": "services/storybook/README.md",
-          "hash": "2624393197388313932"
-        },
-        {
-          "file": "services/storybook/package.json",
-          "hash": "7924318182383439779",
-          "deps": [
-            "npm:@chromatic-com/storybook@1.5.0",
-            "npm:@storybook/addon-essentials@8.1.11",
-            "npm:@storybook/addon-interactions@8.1.11",
-            "npm:@storybook/addon-links@8.1.11",
-            "npm:@storybook/addon-onboarding@8.1.11",
-            "npm:@storybook/blocks@8.1.11",
-            "npm:@storybook/react@8.1.11",
-            "npm:@storybook/react-vite@8.1.11",
-            "npm:@storybook/test@8.1.11",
-            "npm:@types/react@18.3.3",
-            "@xyz/react-components-layout",
-            "@xyz/themes",
-            "npm:prop-types@15.8.1",
-            "npm:storybook@8.1.11",
-            "npm:vite@5.3.1"
-          ]
-        },
-        {
-          "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
-          "hash": "9335182216741094594"
-        },
-        {
-          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
-          "hash": "6757761100968596537"
-        },
-        {
-          "file": "services/storybook/stories/ReactComponents/Typography/Heading.stories.tsx",
-          "hash": "512143240711419007"
-        },
-        {
-          "file": "services/storybook/stories/ReactComponents/Typography/Text.stories.tsx",
-          "hash": "1654438266420389349"
-        },
-        {
-          "file": "services/storybook/stories/themes/colors/Dark.mdx",
-          "hash": "2921655649358025552"
-        },
-        {
-          "file": "services/storybook/stories/themes/colors/Light.mdx",
-          "hash": "11885914450841216044"
-        }
-      ],
-      "@xyz/esbuild": [
-        {
-          "file": "packages/esbuild/index.js",
-          "hash": "11182918977837979281"
-        },
-        {
-          "file": "packages/esbuild/package.json",
-          "hash": "8825915797129003614",
-          "deps": [
-            "npm:esbuild@0.16.17"
-          ]
-        }
-      ],
-      "@xyz/react-components-layout": [
-        {
-          "file": "packages/react/components/layout/README.md",
-          "hash": "3873811360529210895"
-        },
-        {
-          "file": "packages/react/components/layout/build.js",
-          "hash": "9791472403968299618"
-        },
-        {
-          "file": "packages/react/components/layout/package.json",
-          "hash": "8142851987320828347",
-          "deps": [
-            "@xyz/themes",
-            "npm:react@18.3.1",
-            "npm:@types/react@18.3.3",
-            "npm:@types/react-dom@18.3.0",
-            "npm:@vanilla-extract/css@1.15.3",
-            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
-            "npm:@vanilla-extract/recipes@0.5.3",
-            "npm:@vanilla-extract/sprinkles@1.6.2",
-            "@xyz/esbuild",
-            "npm:react-dom@18.3.1",
-            "npm:typescript",
-            "npm:clsx@2.1.1"
-          ]
-        },
-        {
-          "file": "packages/react/components/layout/src/core/style.css.ts",
-          "hash": "11025558606281945054"
-        },
-        {
-          "file": "packages/react/components/layout/src/core/types.ts",
-          "hash": "10244582457833403144"
-        },
-        {
-          "file": "packages/react/components/layout/src/dataDisplay/Divider/Divider.tsx",
-          "hash": "4413103074714128159"
-        },
-        {
-          "file": "packages/react/components/layout/src/dataDisplay/Divider/Divider.types.tsx",
-          "hash": "11747012491895481710"
-        },
-        {
-          "file": "packages/react/components/layout/src/dataDisplay/Divider/index.ts",
-          "hash": "12731453462558673681"
-        },
-        {
-          "file": "packages/react/components/layout/src/dataDisplay/index.ts",
-          "hash": "11698232762792694145"
-        },
-        {
-          "file": "packages/react/components/layout/src/index.ts",
-          "hash": "15207578903840864259"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/Box/Box.tsx",
-          "hash": "10184493955179217095"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/Box/Box.types.ts",
-          "hash": "3629337861103986366"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/Box/index.ts",
-          "hash": "12912581428594905567"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/index.ts",
-          "hash": "16722841235259894218"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/Heading.tsx",
-          "hash": "11651806640471263370"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/Text.tsx",
-          "hash": "7117371524380129757"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/Typography.css.ts",
-          "hash": "3116324455212749619"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/Typography.types.ts",
-          "hash": "3689629646859641415"
-        },
-        {
-          "file": "packages/react/components/layout/src/typography/index.ts",
-          "hash": "1617324979242977684"
-        },
-        {
-          "file": "packages/react/components/layout/src/utils/properties.ts",
-          "hash": "5698855879563130366"
-        },
-        {
-          "file": "packages/react/components/layout/tsconfig.json",
-          "hash": "465124171649795951"
         }
       ]
     },
@@ -372,7 +442,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "2729030600316921265"
+        "hash": "3550652951777210789"
       }
     ]
   }
