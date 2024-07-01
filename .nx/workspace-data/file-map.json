@@ -26,175 +26,74 @@
   },
   "fileMap": {
     "projectFileMap": {
-      "@xyz/esbuild": [
+      "@xyz/themes": [
         {
-          "file": "packages/esbuild/index.js",
-          "hash": "11182918977837979281"
-        },
-        {
-          "file": "packages/esbuild/package.json",
-          "hash": "8825915797129003614",
-          "deps": [
-            "npm:esbuild@0.16.17"
-          ]
-        }
-      ],
-      "@xyz/react-hooks-button": [
-        {
-          "file": "packages/react/hooks/button/README.md",
-          "hash": "8308939158323428482"
-        },
-        {
-          "file": "packages/react/hooks/button/build.js",
+          "file": "packages/themes/build.js",
           "hash": "861602057292074426"
         },
         {
-          "file": "packages/react/hooks/button/package.json",
-          "hash": "7385235001787114271",
+          "file": "packages/themes/package-lock.json",
+          "hash": "9083377881366875813"
+        },
+        {
+          "file": "packages/themes/package.json",
+          "hash": "232095651688889924",
           "deps": [
-            "npm:react@18.3.1",
-            "npm:@types/react@18.3.3",
-            "npm:@types/react-dom@18.3.0",
             "@xyz/esbuild",
-            "npm:react-dom@18.3.1",
-            "npm:typescript",
-            "npm:clsx@2.1.1"
+            "npm:typescript"
           ]
         },
         {
-          "file": "packages/react/hooks/button/src/index.ts",
-          "hash": "3892138785705217561"
+          "file": "packages/themes/scripts/buildCss.js",
+          "hash": "2040916421180589171"
         },
         {
-          "file": "packages/react/hooks/button/src/types.ts",
-          "hash": "16593753731839844748"
+          "file": "packages/themes/src/classes/index.ts",
+          "hash": "14874153686921477232"
         },
         {
-          "file": "packages/react/hooks/button/src/useButton.tsx",
-          "hash": "7011976867152239128"
+          "file": "packages/themes/src/classes/typography.ts",
+          "hash": "4613592670763236173"
         },
         {
-          "file": "packages/react/hooks/button/tsconfig.json",
-          "hash": "465124171649795951"
-        }
-      ],
-      "@xyz/storybook": [
-        {
-          "file": "services/storybook/.storybook/main.js",
-          "hash": "11078301725031675987"
+          "file": "packages/themes/src/index.ts",
+          "hash": "5051740342712927388"
         },
         {
-          "file": "services/storybook/.storybook/preview.js",
-          "hash": "12839613843311711699"
+          "file": "packages/themes/src/variables/box.ts",
+          "hash": "17415301785716516678"
         },
         {
-          "file": "services/storybook/README.md",
-          "hash": "2624393197388313932"
+          "file": "packages/themes/src/variables/colors/index.ts",
+          "hash": "16067044052561609752"
         },
         {
-          "file": "services/storybook/package.json",
-          "hash": "2093414972250815783",
-          "deps": [
-            "npm:@chromatic-com/storybook@1.5.0",
-            "npm:@storybook/addon-essentials@8.1.11",
-            "npm:@storybook/addon-interactions@8.1.11",
-            "npm:@storybook/addon-links@8.1.11",
-            "npm:@storybook/addon-onboarding@8.1.11",
-            "npm:@storybook/blocks@8.1.11",
-            "npm:@storybook/react@8.1.11",
-            "npm:@storybook/react-vite@8.1.11",
-            "npm:@storybook/test@8.1.11",
-            "npm:@types/react@18.3.3",
-            "@xyz/react-components-button",
-            "@xyz/react-components-layout",
-            "@xyz/react-hooks-button",
-            "@xyz/themes",
-            "npm:prop-types@15.8.1",
-            "npm:storybook@8.1.11",
-            "npm:vite@5.3.1"
-          ]
+          "file": "packages/themes/src/variables/colors/scale.ts",
+          "hash": "7227875050283308958"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
-          "hash": "17647012173500882181"
+          "file": "packages/themes/src/variables/colors/static/dark.ts",
+          "hash": "681337314988286385"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
-          "hash": "9335182216741094594"
+          "file": "packages/themes/src/variables/colors/static/index.ts",
+          "hash": "17639848047638776056"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
-          "hash": "6757761100968596537"
+          "file": "packages/themes/src/variables/colors/static/light.ts",
+          "hash": "5111065768491833496"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
-          "hash": "7192617151500981401"
+          "file": "packages/themes/src/variables/index.ts",
+          "hash": "17288868138055620940"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Typography/Heading.stories.tsx",
-          "hash": "512143240711419007"
+          "file": "packages/themes/src/variables/typography.ts",
+          "hash": "15749593622752628120"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Typography/Text.stories.tsx",
-          "hash": "1654438266420389349"
-        },
-        {
-          "file": "services/storybook/stories/themes/colors/Dark.mdx",
-          "hash": "2921655649358025552"
-        },
-        {
-          "file": "services/storybook/stories/themes/colors/Light.mdx",
-          "hash": "11885914450841216044"
-        }
-      ],
-      "@xyz/react-components-button": [
-        {
-          "file": "packages/react/components/button/README.md",
-          "hash": "8308939158323428482"
-        },
-        {
-          "file": "packages/react/components/button/build.js",
-          "hash": "9791472403968299618"
-        },
-        {
-          "file": "packages/react/components/button/package.json",
-          "hash": "16733190411662436181",
-          "deps": [
-            "@xyz/themes",
-            "npm:react@18.3.1",
-            "npm:@types/react@18.3.3",
-            "npm:@types/react-dom@18.3.0",
-            "npm:@vanilla-extract/css@1.15.3",
-            "npm:@vanilla-extract/dynamic@2.1.1",
-            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
-            "npm:@vanilla-extract/recipes@0.5.3",
-            "npm:@vanilla-extract/sprinkles@1.6.2",
-            "@xyz/esbuild",
-            "@xyz/react-hooks-button",
-            "npm:react-dom@18.3.1",
-            "npm:typescript",
-            "npm:clsx@2.1.1"
-          ]
-        },
-        {
-          "file": "packages/react/components/button/src/Button.tsx",
-          "hash": "14838400450781345222"
-        },
-        {
-          "file": "packages/react/components/button/src/index.ts",
-          "hash": "8409040364927157818"
-        },
-        {
-          "file": "packages/react/components/button/src/style.css.ts",
-          "hash": "7222372066226381387"
-        },
-        {
-          "file": "packages/react/components/button/src/types.ts",
-          "hash": "6747927959602565848"
-        },
-        {
-          "file": "packages/react/components/button/tsconfig.json",
-          "hash": "465124171649795951"
+          "file": "packages/themes/tsconfig.json",
+          "hash": "2203870149161640560"
         }
       ],
       "@xyz/react-components-layout": [
@@ -309,74 +208,175 @@
           "hash": "465124171649795951"
         }
       ],
-      "@xyz/themes": [
+      "@xyz/storybook": [
         {
-          "file": "packages/themes/build.js",
-          "hash": "861602057292074426"
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "11078301725031675987"
         },
         {
-          "file": "packages/themes/package-lock.json",
-          "hash": "9083377881366875813"
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "12839613843311711699"
         },
         {
-          "file": "packages/themes/package.json",
-          "hash": "232095651688889924",
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "2093414972250815783",
           "deps": [
-            "@xyz/esbuild",
-            "npm:typescript"
+            "npm:@chromatic-com/storybook@1.5.0",
+            "npm:@storybook/addon-essentials@8.1.11",
+            "npm:@storybook/addon-interactions@8.1.11",
+            "npm:@storybook/addon-links@8.1.11",
+            "npm:@storybook/addon-onboarding@8.1.11",
+            "npm:@storybook/blocks@8.1.11",
+            "npm:@storybook/react@8.1.11",
+            "npm:@storybook/react-vite@8.1.11",
+            "npm:@storybook/test@8.1.11",
+            "npm:@types/react@18.3.3",
+            "@xyz/react-components-button",
+            "@xyz/react-components-layout",
+            "@xyz/react-hooks-button",
+            "@xyz/themes",
+            "npm:prop-types@15.8.1",
+            "npm:storybook@8.1.11",
+            "npm:vite@5.3.1"
           ]
         },
         {
-          "file": "packages/themes/scripts/buildCss.js",
-          "hash": "2040916421180589171"
+          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
+          "hash": "1783336741082607046"
         },
         {
-          "file": "packages/themes/src/classes/index.ts",
-          "hash": "14874153686921477232"
+          "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
+          "hash": "9335182216741094594"
         },
         {
-          "file": "packages/themes/src/classes/typography.ts",
-          "hash": "4613592670763236173"
+          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
+          "hash": "6757761100968596537"
         },
         {
-          "file": "packages/themes/src/index.ts",
-          "hash": "5051740342712927388"
+          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
+          "hash": "7192617151500981401"
         },
         {
-          "file": "packages/themes/src/variables/box.ts",
-          "hash": "17415301785716516678"
+          "file": "services/storybook/stories/ReactComponents/Typography/Heading.stories.tsx",
+          "hash": "512143240711419007"
         },
         {
-          "file": "packages/themes/src/variables/colors/index.ts",
-          "hash": "16067044052561609752"
+          "file": "services/storybook/stories/ReactComponents/Typography/Text.stories.tsx",
+          "hash": "1654438266420389349"
         },
         {
-          "file": "packages/themes/src/variables/colors/scale.ts",
-          "hash": "7227875050283308958"
+          "file": "services/storybook/stories/themes/colors/Dark.mdx",
+          "hash": "2921655649358025552"
         },
         {
-          "file": "packages/themes/src/variables/colors/static/dark.ts",
-          "hash": "681337314988286385"
+          "file": "services/storybook/stories/themes/colors/Light.mdx",
+          "hash": "11885914450841216044"
+        }
+      ],
+      "@xyz/esbuild": [
+        {
+          "file": "packages/esbuild/index.js",
+          "hash": "11182918977837979281"
         },
         {
-          "file": "packages/themes/src/variables/colors/static/index.ts",
-          "hash": "17639848047638776056"
+          "file": "packages/esbuild/package.json",
+          "hash": "8825915797129003614",
+          "deps": [
+            "npm:esbuild@0.16.17"
+          ]
+        }
+      ],
+      "@xyz/react-components-button": [
+        {
+          "file": "packages/react/components/button/README.md",
+          "hash": "8308939158323428482"
         },
         {
-          "file": "packages/themes/src/variables/colors/static/light.ts",
-          "hash": "5111065768491833496"
+          "file": "packages/react/components/button/build.js",
+          "hash": "9791472403968299618"
         },
         {
-          "file": "packages/themes/src/variables/index.ts",
-          "hash": "17288868138055620940"
+          "file": "packages/react/components/button/package.json",
+          "hash": "16733190411662436181",
+          "deps": [
+            "@xyz/themes",
+            "npm:react@18.3.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@vanilla-extract/css@1.15.3",
+            "npm:@vanilla-extract/dynamic@2.1.1",
+            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
+            "npm:@vanilla-extract/recipes@0.5.3",
+            "npm:@vanilla-extract/sprinkles@1.6.2",
+            "@xyz/esbuild",
+            "@xyz/react-hooks-button",
+            "npm:react-dom@18.3.1",
+            "npm:typescript",
+            "npm:clsx@2.1.1"
+          ]
         },
         {
-          "file": "packages/themes/src/variables/typography.ts",
-          "hash": "15749593622752628120"
+          "file": "packages/react/components/button/src/Button.tsx",
+          "hash": "14838400450781345222"
         },
         {
-          "file": "packages/themes/tsconfig.json",
-          "hash": "2203870149161640560"
+          "file": "packages/react/components/button/src/index.ts",
+          "hash": "8409040364927157818"
+        },
+        {
+          "file": "packages/react/components/button/src/style.css.ts",
+          "hash": "7222372066226381387"
+        },
+        {
+          "file": "packages/react/components/button/src/types.ts",
+          "hash": "6747927959602565848"
+        },
+        {
+          "file": "packages/react/components/button/tsconfig.json",
+          "hash": "465124171649795951"
+        }
+      ],
+      "@xyz/react-hooks-button": [
+        {
+          "file": "packages/react/hooks/button/README.md",
+          "hash": "8308939158323428482"
+        },
+        {
+          "file": "packages/react/hooks/button/build.js",
+          "hash": "861602057292074426"
+        },
+        {
+          "file": "packages/react/hooks/button/package.json",
+          "hash": "7385235001787114271",
+          "deps": [
+            "npm:react@18.3.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "@xyz/esbuild",
+            "npm:react-dom@18.3.1",
+            "npm:typescript",
+            "npm:clsx@2.1.1"
+          ]
+        },
+        {
+          "file": "packages/react/hooks/button/src/index.ts",
+          "hash": "3892138785705217561"
+        },
+        {
+          "file": "packages/react/hooks/button/src/types.ts",
+          "hash": "16593753731839844748"
+        },
+        {
+          "file": "packages/react/hooks/button/src/useButton.tsx",
+          "hash": "7011976867152239128"
+        },
+        {
+          "file": "packages/react/hooks/button/tsconfig.json",
+          "hash": "465124171649795951"
         }
       ]
     },
@@ -471,7 +471,7 @@
       },
       {
         "file": "package.json",
-        "hash": "10211057228944685743"
+        "hash": "5279639436616638817"
       },
       {
         "file": "tsconfig.base.json",

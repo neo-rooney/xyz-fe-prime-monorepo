@@ -1,0 +1,31 @@
+(node:81863) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✘ [ERROR] Could not resolve "@xyz/react-hooks-button"
+
+    src/Button.tsx:14:26:
+      14 │ import { useButton } from "@xyz/react-hooks-button";
+         ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  The module "./dist/index.js" was not found on the file system:
+
+    ../../../../.yarn/__virtual__/@xyz-react-hooks-button-virtual-7d171112f6/1/packages/react/hooks/button/package.json:10:16:
+      10 │       "import": "./dist/index.js",
+         ╵                 ~~~~~~~~~~~~~~~~~
+
+  You can mark the path "@xyz/react-hooks-button" as external to exclude it from the bundle, which will remove this error.
+
+✘ [ERROR] Could not resolve "@xyz/react-hooks-button"
+
+    src/Button.tsx:14:26:
+      14 │ import { useButton } from "@xyz/react-hooks-button";
+         ╵                           ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  The module "./dist/index.js" was not found on the file system:
+
+    ../../../../.yarn/__virtual__/@xyz-react-hooks-button-virtual-7d171112f6/1/packages/react/hooks/button/package.json:10:16:
+      10 │       "import": "./dist/index.js",
+         ╵                 ~~~~~~~~~~~~~~~~~
+
+  You can mark the path "@xyz/react-hooks-button" as external to exclude it from the bundle, which will remove this error.
+
+Build failed

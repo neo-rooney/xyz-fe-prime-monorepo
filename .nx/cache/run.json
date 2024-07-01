@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "nx run-many --target=build --projects=@xyz/themes,@xyz/react-components-*,@xyz/react-hooks-*",
+    "startTime": "2024-07-01T03:50:53.850Z",
+    "endTime": "2024-07-01T03:50:57.699Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@xyz/themes:build",
+      "target": "build",
+      "projectName": "@xyz/themes",
+      "hash": "12758111064009030525",
+      "startTime": "2024-07-01T03:50:53.856Z",
+      "endTime": "2024-07-01T03:50:53.890Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@xyz/react-components-button:build",
+      "target": "build",
+      "projectName": "@xyz/react-components-button",
+      "hash": "9868441621729066367",
+      "startTime": "2024-07-01T03:50:53.857Z",
+      "endTime": "2024-07-01T03:50:53.894Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@xyz/react-components-layout:build",
+      "target": "build",
+      "projectName": "@xyz/react-components-layout",
+      "hash": "3612538723762237451",
+      "startTime": "2024-07-01T03:50:53.892Z",
+      "endTime": "2024-07-01T03:50:53.901Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@xyz/react-hooks-button:build",
+      "target": "build",
+      "projectName": "@xyz/react-hooks-button",
+      "hash": "9660535423834648128",
+      "startTime": "2024-07-01T03:50:53.857Z",
+      "endTime": "2024-07-01T03:50:57.699Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

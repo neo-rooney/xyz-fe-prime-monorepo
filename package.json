@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "nx build",
+    "build:packages": "nx run-many --target=build --projects='@xyz/themes,@xyz/react-components-*,@xyz/react-hooks-*'",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
     "dev:storybook": "nx storybook @xyz/storybook",
     "dev:packages": "nx run-many --target=dev --projects='@xyz/themes,@xyz/react-components-*'",
