@@ -1,4 +1,5 @@
 import { style } from "@vanilla-extract/css";
+import { vars } from "@xyz/themes";
 
 const resetStyle = style({
   margin: 0,
@@ -8,3 +9,16 @@ const resetStyle = style({
 });
 
 export const accordionStyle = style([resetStyle]);
+
+export const accordionItemStyle = style([
+  resetStyle,
+  {
+    width: "100%",
+    borderTop: `1px solid ${vars.colors.$scale.gray[300]}`,
+
+    // @ts-ignore
+    "&:last-of-type": {
+      borderBottom: `1px solid ${vars.colors.$scale.gray[300]}`,
+    },
+  },
+]);
