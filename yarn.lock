@@ -4307,6 +4307,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@xyz/react-components-input@workspace:^, @xyz/react-components-input@workspace:packages/react/components/input":
+  version: 0.0.0-use.local
+  resolution: "@xyz/react-components-input@workspace:packages/react/components/input"
+  dependencies:
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@vanilla-extract/css": "npm:^1.15.3"
+    "@vanilla-extract/dynamic": "npm:^2.1.1"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.8"
+    "@vanilla-extract/recipes": "npm:^0.5.3"
+    "@vanilla-extract/sprinkles": "npm:^1.6.2"
+    "@xyz/esbuild": "workspace:^"
+    "@xyz/react-hooks-button": "workspace:^"
+    "@xyz/react-hooks-input": "workspace:^"
+    "@xyz/themes": "workspace:^"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.5.2"
+  peerDependencies:
+    "@xyz/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@xyz/react-components-layout@workspace:^, @xyz/react-components-layout@workspace:packages/react/components/layout":
   version: 0.0.0-use.local
   resolution: "@xyz/react-components-layout@workspace:packages/react/components/layout"
@@ -4332,6 +4357,23 @@ __metadata:
 "@xyz/react-hooks-button@workspace:^, @xyz/react-hooks-button@workspace:packages/react/hooks/button":
   version: 0.0.0-use.local
   resolution: "@xyz/react-hooks-button@workspace:packages/react/hooks/button"
+  dependencies:
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@xyz/esbuild": "workspace:^"
+    "@xyz/react-hooks-toggle": "workspace:^"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.5.2"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
+"@xyz/react-hooks-input@workspace:^, @xyz/react-hooks-input@workspace:packages/react/hooks/input":
+  version: 0.0.0-use.local
+  resolution: "@xyz/react-hooks-input@workspace:packages/react/hooks/input"
   dependencies:
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
@@ -4378,6 +4420,7 @@ __metadata:
     "@types/react": "npm:^18.3.3"
     "@xyz/react-components-accordion": "workspace:^"
     "@xyz/react-components-button": "workspace:^"
+    "@xyz/react-components-input": "workspace:^"
     "@xyz/react-components-layout": "workspace:^"
     "@xyz/react-hooks-button": "workspace:^"
     "@xyz/themes": "workspace:^"
