@@ -5,7 +5,7 @@ import { Button } from "@xyz/react-components-button";
 import { Text } from "@xyz/react-components-layout";
 import { vars } from "@xyz/themes";
 import React from "react";
-import { useButton } from "@xyz/react-hooks-button";
+import { useButton, useToggleButton } from "@xyz/react-hooks-button";
 
 const meta: Meta<typeof Button> = {
   title: "React Components/Button",
@@ -64,6 +64,25 @@ export const TextButton = {
       >
         텍스트 버튼입니다.
       </Text>
+    );
+  },
+};
+
+export const ToggleButtonStory = {
+  render: () => {
+    const { buttonProps, isSelected } = useToggleButton(
+      { elementType: "button" },
+      false,
+    );
+
+    return (
+      <Button
+        {...buttonProps}
+        variant={isSelected ? "solid" : "outline"}
+        color="green"
+      >
+        {isSelected ? "😀" : "😂"}
+      </Button>
     );
   },
 };
