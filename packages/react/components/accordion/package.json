@@ -28,7 +28,6 @@
     "@vanilla-extract/recipes": "^0.5.3",
     "@vanilla-extract/sprinkles": "^1.6.2",
     "@xyz/esbuild": "workspace:^",
-    "@xyz/react-hooks-button": "workspace:^",
     "@xyz/themes": "workspace:^",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -39,6 +38,7 @@
     "react": "*"
   },
   "dependencies": {
+    "@xyz/react-hooks-button": "workspace:^",
     "clsx": "^2.1.1"
   }
 }
