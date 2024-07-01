@@ -4321,6 +4321,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@xyz/react-hooks-toggle@workspace:packages/react/hooks/toggle":
+  version: 0.0.0-use.local
+  resolution: "@xyz/react-hooks-toggle@workspace:packages/react/hooks/toggle"
+  dependencies:
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@xyz/esbuild": "workspace:^"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.5.2"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@xyz/storybook@workspace:services/storybook":
   version: 0.0.0-use.local
   resolution: "@xyz/storybook@workspace:services/storybook"
