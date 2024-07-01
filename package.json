@@ -8,10 +8,13 @@
   ],
   "scripts": {
     "build": "nx build",
-    "build:packages": "nx run-many --target=build --projects='@xyz/themes,@xyz/react-components-*,@xyz/react-hooks-*'",
+    "build:packages": "nx run-many --target=build --projects='@xyz/themes,@xyz/react-hooks-*,@xyz/react-components-*'",
     "dev:all": "yarn dev:storybook & yarn dev:packages",
     "dev:storybook": "nx storybook @xyz/storybook",
-    "dev:packages": "nx run-many --target=dev --projects='@xyz/themes,@xyz/react-components-*,@xyz/react-hooks-*'",
+    "dev:packages": "yarn dev:themes & yarn dev:react-components & yarn dev:react-hooks",
+    "dev:themes": "nx run-many --target=dev --projects='@xyz/themes'",
+    "dev:react-components": "nx run-many --target=dev --projects='@xyz/react-components-*'",
+    "dev:react-hooks": "nx run-many --target=dev --projects='@xyz/react-hooks-*'",
     "reset": "nx reset"
   },
   "devDependencies": {

@@ -13,3 +13,7 @@ export type AccordionItemProps = {
 export type AccordionButtonProps = {
   itemName?: string;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
+
+export type AccordionPanelProps = {
+  itemName?: string;
+} & React.HTMLAttributes<HTMLDivElement>;

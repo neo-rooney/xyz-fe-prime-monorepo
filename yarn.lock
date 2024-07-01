@@ -4259,7 +4259,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@xyz/react-components-accordion@workspace:packages/react/components/accordion":
+"@xyz/react-components-accordion@workspace:^, @xyz/react-components-accordion@workspace:packages/react/components/accordion":
   version: 0.0.0-use.local
   resolution: "@xyz/react-components-accordion@workspace:packages/react/components/accordion"
   dependencies:
@@ -4376,6 +4376,7 @@ __metadata:
     "@storybook/react-vite": "npm:^8.1.11"
     "@storybook/test": "npm:^8.1.11"
     "@types/react": "npm:^18.3.3"
+    "@xyz/react-components-accordion": "workspace:^"
     "@xyz/react-components-button": "workspace:^"
     "@xyz/react-components-layout": "workspace:^"
     "@xyz/react-hooks-button": "workspace:^"

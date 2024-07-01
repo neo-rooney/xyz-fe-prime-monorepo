@@ -26,6 +26,80 @@
   },
   "fileMap": {
     "projectFileMap": {
+      "@xyz/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "11078301725031675987"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "12839613843311711699"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "11471726258293539180",
+          "deps": [
+            "npm:@chromatic-com/storybook@1.5.0",
+            "npm:@storybook/addon-essentials@8.1.11",
+            "npm:@storybook/addon-interactions@8.1.11",
+            "npm:@storybook/addon-links@8.1.11",
+            "npm:@storybook/addon-onboarding@8.1.11",
+            "npm:@storybook/blocks@8.1.11",
+            "npm:@storybook/react@8.1.11",
+            "npm:@storybook/react-vite@8.1.11",
+            "npm:@storybook/test@8.1.11",
+            "npm:@types/react@18.3.3",
+            "@xyz/react-components-accordion",
+            "@xyz/react-components-button",
+            "@xyz/react-components-layout",
+            "@xyz/react-hooks-button",
+            "@xyz/themes",
+            "npm:prop-types@15.8.1",
+            "npm:storybook@8.1.11",
+            "npm:vite@5.3.1"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
+          "hash": "15302770421574590576"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
+          "hash": "9335182216741094594"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Disclosure/Accordion.stories.tsx",
+          "hash": "5008527079668586152"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
+          "hash": "6757761100968596537"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
+          "hash": "7192617151500981401"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Typography/Heading.stories.tsx",
+          "hash": "512143240711419007"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Typography/Text.stories.tsx",
+          "hash": "1654438266420389349"
+        },
+        {
+          "file": "services/storybook/stories/themes/colors/Dark.mdx",
+          "hash": "2921655649358025552"
+        },
+        {
+          "file": "services/storybook/stories/themes/colors/Light.mdx",
+          "hash": "11885914450841216044"
+        }
+      ],
       "@xyz/react-hooks-button": [
         {
           "file": "packages/react/hooks/button/README.md",
@@ -67,56 +141,6 @@
         },
         {
           "file": "packages/react/hooks/button/tsconfig.json",
-          "hash": "465124171649795951"
-        }
-      ],
-      "@xyz/react-components-button": [
-        {
-          "file": "packages/react/components/button/README.md",
-          "hash": "8308939158323428482"
-        },
-        {
-          "file": "packages/react/components/button/build.js",
-          "hash": "9791472403968299618"
-        },
-        {
-          "file": "packages/react/components/button/package.json",
-          "hash": "16733190411662436181",
-          "deps": [
-            "@xyz/themes",
-            "npm:react@18.3.1",
-            "npm:@types/react@18.3.3",
-            "npm:@types/react-dom@18.3.0",
-            "npm:@vanilla-extract/css@1.15.3",
-            "npm:@vanilla-extract/dynamic@2.1.1",
-            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
-            "npm:@vanilla-extract/recipes@0.5.3",
-            "npm:@vanilla-extract/sprinkles@1.6.2",
-            "@xyz/esbuild",
-            "@xyz/react-hooks-button",
-            "npm:react-dom@18.3.1",
-            "npm:typescript",
-            "npm:clsx@2.1.1"
-          ]
-        },
-        {
-          "file": "packages/react/components/button/src/Button.tsx",
-          "hash": "14838400450781345222"
-        },
-        {
-          "file": "packages/react/components/button/src/index.ts",
-          "hash": "8409040364927157818"
-        },
-        {
-          "file": "packages/react/components/button/src/style.css.ts",
-          "hash": "7222372066226381387"
-        },
-        {
-          "file": "packages/react/components/button/src/types.ts",
-          "hash": "6747927959602565848"
-        },
-        {
-          "file": "packages/react/components/button/tsconfig.json",
           "hash": "465124171649795951"
         }
       ],
@@ -271,73 +295,133 @@
           "hash": "465124171649795951"
         }
       ],
-      "@xyz/storybook": [
+      "@xyz/react-components-accordion": [
         {
-          "file": "services/storybook/.storybook/main.js",
-          "hash": "11078301725031675987"
+          "file": "packages/react/components/accordion/README.md",
+          "hash": "8308939158323428482"
         },
         {
-          "file": "services/storybook/.storybook/preview.js",
-          "hash": "12839613843311711699"
+          "file": "packages/react/components/accordion/build.js",
+          "hash": "9791472403968299618"
         },
         {
-          "file": "services/storybook/README.md",
-          "hash": "2624393197388313932"
-        },
-        {
-          "file": "services/storybook/package.json",
-          "hash": "2093414972250815783",
+          "file": "packages/react/components/accordion/package.json",
+          "hash": "7039868955502985527",
           "deps": [
-            "npm:@chromatic-com/storybook@1.5.0",
-            "npm:@storybook/addon-essentials@8.1.11",
-            "npm:@storybook/addon-interactions@8.1.11",
-            "npm:@storybook/addon-links@8.1.11",
-            "npm:@storybook/addon-onboarding@8.1.11",
-            "npm:@storybook/blocks@8.1.11",
-            "npm:@storybook/react@8.1.11",
-            "npm:@storybook/react-vite@8.1.11",
-            "npm:@storybook/test@8.1.11",
-            "npm:@types/react@18.3.3",
-            "@xyz/react-components-button",
-            "@xyz/react-components-layout",
-            "@xyz/react-hooks-button",
             "@xyz/themes",
-            "npm:prop-types@15.8.1",
-            "npm:storybook@8.1.11",
-            "npm:vite@5.3.1"
+            "npm:react@18.3.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@vanilla-extract/css@1.15.3",
+            "npm:@vanilla-extract/dynamic@2.1.1",
+            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
+            "npm:@vanilla-extract/recipes@0.5.3",
+            "npm:@vanilla-extract/sprinkles@1.6.2",
+            "@xyz/esbuild",
+            "npm:react-dom@18.3.1",
+            "npm:typescript",
+            "@xyz/react-hooks-button",
+            "npm:clsx@2.1.1"
           ]
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Button/Button.stories.tsx",
-          "hash": "1783336741082607046"
+          "file": "packages/react/components/accordion/src/Accordion.tsx",
+          "hash": "2386729933774045039"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/DataDisplay/Divider.stories.tsx",
-          "hash": "9335182216741094594"
+          "file": "packages/react/components/accordion/src/AccordionButton.tsx",
+          "hash": "15796442019382232970"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
-          "hash": "6757761100968596537"
+          "file": "packages/react/components/accordion/src/AccordionContext.tsx",
+          "hash": "16802727246996972943"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx",
-          "hash": "7192617151500981401"
+          "file": "packages/react/components/accordion/src/AccordionItem.tsx",
+          "hash": "18254717777939924557"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Typography/Heading.stories.tsx",
-          "hash": "512143240711419007"
+          "file": "packages/react/components/accordion/src/AccordionPanel.tsx",
+          "hash": "9272739065401520924"
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Typography/Text.stories.tsx",
-          "hash": "1654438266420389349"
+          "file": "packages/react/components/accordion/src/index.ts",
+          "hash": "6692487404382574495"
         },
         {
-          "file": "services/storybook/stories/themes/colors/Dark.mdx",
-          "hash": "2921655649358025552"
+          "file": "packages/react/components/accordion/src/style.css.ts",
+          "hash": "7510360060227595998"
         },
         {
-          "file": "services/storybook/stories/themes/colors/Light.mdx",
-          "hash": "11885914450841216044"
+          "file": "packages/react/components/accordion/src/types.ts",
+          "hash": "1779933654789481147"
+        },
+        {
+          "file": "packages/react/components/accordion/tsconfig.json",
+          "hash": "465124171649795951"
+        }
+      ],
+      "@xyz/esbuild": [
+        {
+          "file": "packages/esbuild/index.js",
+          "hash": "11182918977837979281"
+        },
+        {
+          "file": "packages/esbuild/package.json",
+          "hash": "8825915797129003614",
+          "deps": [
+            "npm:esbuild@0.16.17"
+          ]
+        }
+      ],
+      "@xyz/react-components-button": [
+        {
+          "file": "packages/react/components/button/README.md",
+          "hash": "8308939158323428482"
+        },
+        {
+          "file": "packages/react/components/button/build.js",
+          "hash": "9791472403968299618"
+        },
+        {
+          "file": "packages/react/components/button/package.json",
+          "hash": "16733190411662436181",
+          "deps": [
+            "@xyz/themes",
+            "npm:react@18.3.1",
+            "npm:@types/react@18.3.3",
+            "npm:@types/react-dom@18.3.0",
+            "npm:@vanilla-extract/css@1.15.3",
+            "npm:@vanilla-extract/dynamic@2.1.1",
+            "npm:@vanilla-extract/esbuild-plugin@2.3.8",
+            "npm:@vanilla-extract/recipes@0.5.3",
+            "npm:@vanilla-extract/sprinkles@1.6.2",
+            "@xyz/esbuild",
+            "@xyz/react-hooks-button",
+            "npm:react-dom@18.3.1",
+            "npm:typescript",
+            "npm:clsx@2.1.1"
+          ]
+        },
+        {
+          "file": "packages/react/components/button/src/Button.tsx",
+          "hash": "14838400450781345222"
+        },
+        {
+          "file": "packages/react/components/button/src/index.ts",
+          "hash": "8409040364927157818"
+        },
+        {
+          "file": "packages/react/components/button/src/style.css.ts",
+          "hash": "7222372066226381387"
+        },
+        {
+          "file": "packages/react/components/button/src/types.ts",
+          "hash": "6747927959602565848"
+        },
+        {
+          "file": "packages/react/components/button/tsconfig.json",
+          "hash": "465124171649795951"
         }
       ],
       "@xyz/themes": [
@@ -408,19 +492,6 @@
         {
           "file": "packages/themes/tsconfig.json",
           "hash": "2203870149161640560"
-        }
-      ],
-      "@xyz/esbuild": [
-        {
-          "file": "packages/esbuild/index.js",
-          "hash": "11182918977837979281"
-        },
-        {
-          "file": "packages/esbuild/package.json",
-          "hash": "8825915797129003614",
-          "deps": [
-            "npm:esbuild@0.16.17"
-          ]
         }
       ]
     },
@@ -515,7 +586,7 @@
       },
       {
         "file": "package.json",
-        "hash": "8103428846198243513"
+        "hash": "7864234330245596806"
       },
       {
         "file": "tsconfig.base.json",
@@ -527,7 +598,7 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "11518224943554495435"
+        "hash": "11824185828313905159"
       }
     ]
   }

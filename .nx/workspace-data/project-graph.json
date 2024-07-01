@@ -1,5 +1,95 @@
 {
   "nodes": {
+    "@xyz/react-components-accordion": {
+      "name": "@xyz/react-components-accordion",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/accordion",
+        "sourceRoot": "packages/react/components/accordion",
+        "name": "@xyz/react-components-accordion",
+        "projectType": "library",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "build",
+              "build:js",
+              "build:type",
+              "clean"
+            ]
+          }
+        },
+        "targets": {
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "metadata": {
+              "scriptContent": "yarn build:js --watch && yarn build:type --watch",
+              "runCommand": "yarn dev"
+            },
+            "configurations": {}
+          },
+          "build": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "metadata": {
+              "scriptContent": "yarn clean && yarn build:js && yarn build:type",
+              "runCommand": "yarn build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "metadata": {
+              "scriptContent": "node build.js",
+              "runCommand": "yarn build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "metadata": {
+              "scriptContent": "yarn tsc --emitDeclarationOnly",
+              "runCommand": "yarn build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "metadata": {
+              "scriptContent": "rm -rf dist",
+              "runCommand": "yarn clean"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@xyz/react-components-button": {
       "name": "@xyz/react-components-button",
       "type": "lib",
@@ -10960,6 +11050,78 @@
     }
   },
   "dependencies": {
+    "@xyz/react-components-accordion": [
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "@xyz/themes",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:react@18.3.1",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@types/react@18.3.3",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@types/react-dom@18.3.0",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@vanilla-extract/css@1.15.3",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@vanilla-extract/dynamic@2.1.1",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@vanilla-extract/esbuild-plugin@2.3.8",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@vanilla-extract/recipes@0.5.3",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:@vanilla-extract/sprinkles@1.6.2",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "@xyz/esbuild",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:react-dom@18.3.1",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "@xyz/react-hooks-button",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/react-components-accordion",
+        "target": "npm:clsx@2.1.1",
+        "type": "static"
+      }
+    ],
     "@xyz/react-components-button": [
       {
         "source": "@xyz/react-components-button",
@@ -11222,6 +11384,11 @@
       {
         "source": "@xyz/storybook",
         "target": "npm:@types/react@18.3.3",
+        "type": "static"
+      },
+      {
+        "source": "@xyz/storybook",
+        "target": "@xyz/react-components-accordion",
         "type": "static"
       },
       {
